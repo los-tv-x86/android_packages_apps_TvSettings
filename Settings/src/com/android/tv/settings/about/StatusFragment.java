@@ -72,7 +72,7 @@ public class StatusFragment extends PreferenceControllerFragment implements Slic
         addPreferenceController(new NopePreferenceController(context, KEY_BATTERY_LEVEL));
         addPreferenceController(new BatteryStatusPreferenceController(context, lifecycle));
 
-        addPreferenceController(new SerialNumberPreferenceController(context));
+        addPreferenceController(new CustomSerialNumberPreferenceController(context));
         addPreferenceController(new UptimePreferenceController(context, lifecycle));
         addPreferenceController(new BluetoothAddressPreferenceController(context, lifecycle));
         addPreferenceController(new IpAddressPreferenceController(context, lifecycle));
